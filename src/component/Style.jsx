@@ -4,7 +4,7 @@ const Style = () => {
     return(
         <Fragment>
         <div className='w-full h-10 '></div>
-        <div className="w-full grid md:grid-cols-3  bg-orange-100 pt-20 py-4">
+        <div className="w-full grid md:grid-cols-3  bg-red-200 pt-20 py-4">
             <div className=' ml-6  '>
                 
                 <h3 className="font-semibold  text-2xl md:text-3xl ">We Style your Soul with Elegant Accessories</h3>

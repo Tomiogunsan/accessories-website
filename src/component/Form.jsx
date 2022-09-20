@@ -4,7 +4,7 @@ const Form = () =>{
     return(
         <Fragment>
             <div className='w-full h-10'></div>
-        <div className=' bg-orange-100 pt-6 xl:ml-6 mx-auto'>
+        <div className=' bg-red-200 pt-6 xl:ml-6 mx-auto'>
             <h3 className='text-center font-semibold  text-2xl'>Contact Us</h3>
             
             <div className='flex flex-col ml-10 '>

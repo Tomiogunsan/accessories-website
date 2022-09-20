@@ -14,12 +14,12 @@ const Gallery = () => {
             <p>Explore rare modern accessories from our top collections</p>
         </div>
 
-        <div className='grid grid-cols-3 grid-rows-none gap-2 md:gap-4  mx-auto max-w-[1240px] h-full'>
-        <img className='col-span-2 row-span-2 w-full h-full object-cover' src={gal} alt='/'/>
+        <div className='grid md:grid-cols-3 grid-rows-none gap-2 md:gap-4  mx-auto max-w-[1240px] h-full'>
+        <img className='col-span-2 md:row-span-2 w-full h-full object-cover' src={gal} alt='/'/>
         <img className='w-full h-full object-cover' src={galTwo} alt='/'/>
         <img className='w-full h-full object-cover' src={galThree} alt='/'/>
-        <img className='w-full h-full object-cover' src={galFour} alt='/'/>
-        <img className='w-full h-full object-cover col-span-2 row-span-2' src={galSix} alt='/'/>
+        <img className='w-full h-full object-cover col-span-2 md:col-span-1' src={galFour} alt='/'/>
+        <img className='w-full h-full object-cover md:col-span-2 md:row-span-2' src={galSix} alt='/'/>
         <img className='w-full h-full object-cover' src={galS} alt='/'/>
       
 

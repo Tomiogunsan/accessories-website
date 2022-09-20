@@ -6,7 +6,7 @@ import mainThree from '../images/main3.jpg';
 
 const Hero = () => {
     return(
-        <div className='w-full  mx-auto  grid md:grid-cols-2 gap-4 px-4 bg-orange-100 '>
+        <div className='w-full mx-auto  grid md:grid-cols-2 gap-4 px-4 bg-red-200 '>
             <div className='ml-6 flex flex-col py-28'>
                 <h3 >Beauty, Classy & Elegant</h3>
                 <h1 className="font-bold text-4xl py-1 ">Modern Accessories</h1>
